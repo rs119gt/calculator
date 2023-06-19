@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="input-num">
+        <input type="text" id="field1" placeholder="Num 1">
+        <input type="text" id="field2" placeholder="Num 2">
+    </div>
+        <div class="btn-function">
+            <div class="btn-icon">
+        <button id="sum-el" onclick="sum()">+</button>
+        <button id="diff-el" onclick="diff()">-</button>
+        <button id="mul-el" onclick="mul()">*</button>
+        <button id="div-el" onclick="div()">/</button>
+        
+        <button id="res-el" onclick="res()">=</button>
+        
+    </div>
+    </div>
+<button id="rst-el" onclick="rst()">RESET</button>
+        <output id="out">RESULT</output>
+    </div>
+    </body>
+    <script src="index.js"></script>
+</html>
